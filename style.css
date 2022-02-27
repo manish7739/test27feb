@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: montserrat;
+    background-color: rgb(102, 105, 105);
+    /* background-image: url(bground.jpg); */
+    width: 100%;
+    height: auto;
+}
+.navbar{
+height: 80px;
+width: 100%;
+background: rgb(36, 35, 35);
+position: fixed;
+}
+.logo{
+    font-size:35px ;
+    font-weight: bold;
+    color: white;
+    padding: 0 100px;
+    line-height: 80px;;
+}
+.navbar ul{
+float: right;
+margin-right: 40px;
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 0px;
+    line-height: 80px;
+
+} 
+.navbar ul li a{
+    color: wheat;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+
+}
+.navbar ul li a:hover ,a.active{
+    border: 1px solid white;
+    transition: .5s;
+}
+.image{
+margin-left: 150px;
+padding-top: 200px;
+
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin-top: 270px;
+    margin-left: 200px;
+  }
+  .column img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 1px solid black;
+
+}
+.para{
+    margin-top: 70px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.para p{
+    color: white;
+}
+.footer{
+    background-color: black;
+    margin-top: 40px;
+ padding-left: 120px;
+ height: 40vh; 
+    
+}
+.footer-menu{
+    float: left;
+    width: 33%;
+    
+}
+.footer-menu h3{
+font-size: 20px;
+color: rgb(124, 67, 67);
+margin-top: 30px;
+}
+.footer-menu ul{
+ 
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.footer-menu ul li a{
+     font-size: 18px;
+     line-height: 36px;
+     text-decoration: none;
+     color: gray  
+}
+.footer-menu ul li a:hover{
+    color: rgb(112, 109, 64); 
+}
+#media {
+font-size: 30px;
+}
+#media a{
+    color:gray;
+     
+}
+#media a:hover{
+    color:rgb(112, 109, 64);
+}
+.education-para{
+    padding-top: 130px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 30px;
+}
+
